@@ -2,13 +2,39 @@ body{
     background-color: white;
 }
 .semba{
-    width: 1300px;
-    height: 350px;
+    width: 1211px;
+    height: 300px;
+}
+@media (max-width: 800px) {
+    .semba{
+        width: 500px;
+        height: 100px;
+    }
+    .semba_texto{
+        width: 500px;
+    }
+}
+.albuns_texto{
+    display: flex;
+    justify-content: center;
+}
+.capa{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .rectangulo{
     color: white;
     width: 150px;
-    height: 30px;
+    height: 25px;
     background-color: brown;
 }
 .menu{
@@ -27,6 +53,10 @@ margin: 10px;
 }
 .nav_link{
     padding: 20px 10px;
+}
+.albuns_texto{
+    display: flex;
+    justify-content: center;
 }
 .Sobre{
     background-color: gold;
