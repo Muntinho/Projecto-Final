@@ -1,0 +1,42 @@
+body{
+    background-color: white;
+}
+.semba{
+    width: 1300px;
+    height: 350px;
+}
+.rectangulo{
+    color: white;
+    width: 150px;
+    height: 30px;
+    background-color: brown;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu_logo{
+margin: 10px;
+}
+.nav_lista{
+    display: flex;
+    list-style: none;
+    flex-wrap: nowrap;
+}
+.nav_link{
+    padding: 20px 10px;
+}
+.Sobre{
+    background-color: gold;
+    width: 70px;
+    height: 28px;
+    border: none;
+    border-radius: 15px;
+    stop-color: white;
+}
+.albuM{
+    width: 250px;
+    height: 250px;
+}
